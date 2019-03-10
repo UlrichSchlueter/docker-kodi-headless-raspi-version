@@ -1,5 +1,5 @@
 ARG UBUNTU_VER="bionic"
-FROM lsiobase/ubuntu.armhF:${UBUNTU_VER} as buildstage
+FROM lsiobase/ubuntu.armhf:${UBUNTU_VER} as buildstage
 ############## build stage ##############
 
 # package versions
